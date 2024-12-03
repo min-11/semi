@@ -17,4 +17,11 @@ public class MainManageController {
 		ModelAndView mav = new ModelAndView("admin/home/main");
 		return mav;
 	}
+
+	@RequestMapping("/admin/main")
+	public ModelAndView main2(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		ModelAndView mav2 = new ModelAndView("admin/home/main");
+		return mav2;
+	}
+
 }
