@@ -18,10 +18,11 @@ public class MainManageController {
 		return mav;
 	}
 
-	@RequestMapping("/admin/main")
-	public ModelAndView main2(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		ModelAndView mav2 = new ModelAndView("admin/home/main");
-		return mav2;
+	@RequestMapping("/admin2")
+	public ModelAndView main(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		ModelAndView mav3 = new ModelAndView("admin/home/main");
+		return mav3;
 	}
+
 
 }
